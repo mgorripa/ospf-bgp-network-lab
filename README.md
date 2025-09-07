@@ -82,7 +82,7 @@ I simulated a failure by shutting down the **R2–R3 link**. Packet loss occurre
 * Gained practical experience in how routing protocols contribute to **high availability and resilience** in production networks.
 
 ## Repository Structure
-
+```bash
 ospf-bgp-network-lab/
 ├── README.md # Project documentation, including an overview, validation steps, and key learnings.
 ├── diagrams/ # Network topology diagrams.
@@ -90,6 +90,7 @@ ospf-bgp-network-lab/
 ├── configs/ # Router configurations (R1–R6) in plain text format.
 ├── screenshots/ # Evidence of the validation tests, including CLI outputs of show commands and ping results.
 └── notes/ # Additional notes and observations made during the project.
+```
 
 ## Prerequisites
 
