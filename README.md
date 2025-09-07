@@ -52,6 +52,7 @@ set protocols bgp 65000 neighbor 203.0.113.2 remote-as 65100
 set protocols bgp 65000 network 10.10.10.0/24
 set protocols static route 0.0.0.0/0 next-hop 203.0.113.2
 set protocols ospf redistribute static
+```
 
 Similar configurations were applied to R2, R3, R4, R5, and R6. Full versions are available in the `/configs` folder.
 
